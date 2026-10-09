@@ -1,0 +1,26 @@
+{
+  "name": "obsidian-publisher-export",
+  "version": "0.2.9",
+  "description": "Export Obsidian notes with Excalidraw frames to WeChat and Jekyll.",
+  "main": "main.js",
+  "scripts": {
+    "build": "node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "keywords": [
+    "obsidian",
+    "excalidraw",
+    "wechat",
+    "jekyll"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "latest",
+    "esbuild": "latest",
+    "obsidian": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}

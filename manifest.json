@@ -1,0 +1,9 @@
+{
+  "id": "publisher-export",
+  "name": "Publisher Export",
+  "version": "0.2.9",
+  "minAppVersion": "1.5.0",
+  "description": "Export notes containing Excalidraw frames to WeChat and Jekyll.",
+  "author": "zhangshuo",
+  "isDesktopOnly": true
+}

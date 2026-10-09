@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "module": "ESNext",
+    "target": "ES2018",
+    "allowJs": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "moduleResolution": "Bundler",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "lib": ["DOM", "ES2021"],
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"]
+}
